@@ -1,0 +1,27 @@
+{
+  "name": "share-now-api",
+  "version": "1.0.0",
+  "description": "Demo project to show how to use the Share Now api anonymously.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+	"url": "https://github.com/T3rm1/share-now-api.git"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mqtt": "^4.0.1",
+    "uuid-random": "^1.3.0",
+    "ws": "^7.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mqtt",
+    "sharenow"
+  ],
+  "author": "T3rm1",
+  "license": "ISC",
+  "homepage": "https://github.com/T3rm1/share-now-api"
+}

@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#map {
+    height: 100%;
+}
+
+nav {
+    padding: 10px;
+    background-color: #0ba1e2;
+}
+
+nav ul {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li {
+    margin-left: 10px;
+    float: left;
+    border-radius: 20px;
+    color: white;    
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li:hover:not(.selected) {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+li.selected {
+    border: 2px solid white;
+}
+
+.marker {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    left: -1.0rem;
+    top: -1.0rem;
+    position: relative;
+    border-radius: 3rem 3rem 0;
+    transform: rotate(45deg);
+}
+.available {
+    background-color: #0ba1e2;
+    border: 1px solid #0ba1e2;
+}
+.unavailable {
+    background-color: #53595c;
+    border: 1px solid #53595c;
+}
+.new {
+    background-color: #25a133;
+    border: 1px solid #25a133;
+}
+.marker i {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 4px; 
+    left: 4px;
+    font-size: 1.5rem;
+    color: white;
+}
+.popup-car {
+    display: flex;
+}
+.popup-car img {
+    object-fit: contain;
+}
+.popup-car-details {
+    justify-content: center;
+    font-size: large;
+    display: flex;
+    flex-direction: column;    
+}

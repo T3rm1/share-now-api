@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Share Now cars</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"></script>
+</head>
+<body>
+    <nav>
+        <ul id="countries">
+            <li class="selected">Germany</li>
+            <li>Denmark</li>
+            <li>France</li>
+            <li>Italy</li>
+            <li>Netherlands</li>
+            <li>Austria</li>
+            <li>Spain</li>
+            <li>Hungary</li>
+        </ul>
+        <ul id="cities">
+            <li data-id="3" class="selected">Hamburg</li>
+            <li data-id="12">Berlin</li>
+            <li data-id="33">Frankfurt am Main</li>
+            <li data-id="26">München</li>
+            <li data-id="19">Köln</li>
+            <li data-id="18">Stuttgart</li>
+        </ul>
+    </nav>
+    <div id="map"></div>
+    <script src='main.js'></script>
+</body>
+</html>
