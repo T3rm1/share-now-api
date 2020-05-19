@@ -1,9 +1,7 @@
 ![Preview of demo website](mockup.jpg)
 
 # Share Now car locations
-Here is [demo page](https://t3rm1.github.io/share-now-api/) that shows the locations of all Share Now cars. Only cars in Hamburg are shown right now.
-
-:warning: _Link does not work at the moment as I don't have a server for node. Please run the project locally._
+Here is [demo page](https://share-now-api.herokuapp.com) that shows the locations of all Share Now cars. Only cars in Hamburg are shown right now.
 
 Green markers are cars that became available.
 
